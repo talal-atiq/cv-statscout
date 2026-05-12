@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+.venv/
+venv/
+env/
+.env
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Storage (user uploads / processed outputs)
+storage/uploads/*
+storage/processed/*
+storage/frames/*
+!storage/uploads/.gitkeep
+!storage/processed/.gitkeep
+!storage/frames/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Logs
+*.log
+*.zip
